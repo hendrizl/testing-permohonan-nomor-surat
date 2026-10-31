@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/permohonan-nomor-surat/", // ⬅️ WAJIB
+  base: "/testing-permohonan-nomor-surat/", // ⬅️ WAJIB
   build: {
     chunkSizeWarningLimit: 1000, // Menghilangkan warning untuk file di bawah 1MB
     rollupOptions: {
